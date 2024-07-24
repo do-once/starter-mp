@@ -1,11 +1,17 @@
 {
-    "name": "starter-mp",
+    "name": "@doonce/starter-mp",
+    "type": "module",
     "version": "0.0.0",
     "description": "Starter template for WeChat Miniprogram with native framework.",
-    "scripts": {},
-    "keywords": [],
     "author": "",
-    "license": "",
+    "keywords": [],
+    "scripts": {
+        "dev":"npm-run-all --parallel install:package-*",
+        "install:package-mian":"cd miniprogram && npm install",
+        "install:package-sub":"cd miniprogram/package-sub && npm install",
+        "install:package-sub2":"cd miniprogram/package-sub2 && npm install"
+    },
+    "license": "MIT",
     "dependencies": {},
     "devDependencies": {
         "miniprogram-api-typings": "3.12.2",

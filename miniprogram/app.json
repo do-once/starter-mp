@@ -1,22 +1,48 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window": {
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
-  },
-  "style": "v2",
-  "rendererOptions": {
-    "skyline": {
-      "defaultDisplayBlock": true,
-      "disableABTest": true,
-      "sdkVersionBegin": "3.0.0",
-      "sdkVersionEnd": "15.255.255"
-    }
-  },
-  "componentFramework": "glass-easel",
-  "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+    "entryPagePath": "package-main/pages/landing/landing",
+    "pages": [
+        "package-main/pages/landing/landing"
+    ],
+    "subPackages": [
+        {
+            "name":"Static",
+            "root": "package-static",
+            "pages": [
+                "pages/privacy-agreement/privacy-agreement",
+                "pages/user-agreement/user-agreement"
+            ],
+            "independent": true
+        },
+        {
+            "name": "Sub",
+            "root": "package-sub",
+            "pages": [
+                "pages/page-home/page-home",
+                "pages/login/login"
+            ]
+        },
+        {
+            "name": "Sub2",
+            "root": "package-sub2",
+            "pages": [
+                "pages/page-sub2/page-sub2"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "style": "v2",
+    "rendererOptions": {
+        "skyline": {
+            "defaultDisplayBlock": true,
+            "disableABTest": true,
+            "sdkVersionBegin": "3.0.0",
+            "sdkVersionEnd": "15.255.255"
+        }
+    },
+    "componentFramework": "glass-easel",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
 }
