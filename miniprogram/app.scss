@@ -9,75 +9,11 @@
 /** 导入自定义vant主题 */
 @import "./shared/styles/custom-vant-weapp";
 
+/** 导入样式工具类 */
+@import "./shared/styles/utils";
+
 page {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     height: 100vh;
 }
 
-.h-full {
-    height: 100%;
-}
-
-.h-screen {
-    height: 100vh;
-}
-
-.w-full {
-    width: 100%;
-}
-
-.w-screen {
-    width: 100vw;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex-col {
-    flex-direction: column;
-}
-
-.flex-1 {
-    flex: 1 1 0%;
-}
-
-.flex-none {
-    flex: 0 0 auto;
-}
-
-.flex-auto {
-    flex: 1 1 auto;
-}
-
-.justify-between {
-    justify-content: space-between;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.items-center {
-    align-items: center;
-}
-
-.items-start {
-    align-items: flex-start;
-}
-
-.items-end {
-    align-items: flex-end;
-}
-
-.overflow-auto {
-    overflow: auto;
-}
-
-.overflow-hidden {
-    overflow: hidden;
-}
-
-.overflow-y-hidden {
-    overflow-y: hidden;
-}
