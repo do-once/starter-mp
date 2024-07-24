@@ -1,10 +1,11 @@
 /**app.wxss**/
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+
+/**
+* 导入vant内置通用样式（文字省略、1px等）
+* https://vant-ui.github.io/vant-weapp/#/common
+*/
+@import "./miniprogram_npm/@vant/weapp/common/index.wxss";
+
+/** 导入自定义vant主题 */
+@import "./shared/styles/custom-vant-weapp";
+

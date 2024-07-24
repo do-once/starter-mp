@@ -5,5 +5,18 @@
     "compileHotReLoad": true,
     "urlCheck": false,
     "bigPackageSizeSupport": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "package-sub/pages/home/home",
+          "pathName": "package-sub/pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }

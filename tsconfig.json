@@ -26,7 +26,8 @@
         "paths": {
             "@/*": [
                 "miniprogram/*"
-            ]
+            ],
+            "@vant/weapp/*":["./miniprogram/node_modules/@vant/weapp/dist/*"]
         },
     },
     "include": [
