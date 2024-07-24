@@ -1,4 +1,4 @@
-// package-Sub/pages/page-home/page-home.ts
+// package-sub/pages/home/home.ts
 Page({
 
   /**
