@@ -50,5 +50,8 @@
     },
     "componentFramework": "exparser",
     "sitemapLocation": "sitemap.json",
-    "lazyCodeLoading": "requiredComponents"
+    "lazyCodeLoading": "requiredComponents",
+    "resolveAlias": {
+        "@/*":"/*"
+    }
 }
