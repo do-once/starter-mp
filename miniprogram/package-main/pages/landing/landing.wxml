@@ -1,2 +1,2 @@
 <!--pages/landing/landing.wxml-->
-<text>pages/landing/landing.wxml</text>
+<view class="h-screen flex flex-col justify-center items-center">loading...</view>
