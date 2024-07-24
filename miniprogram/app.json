@@ -29,6 +29,12 @@
             ]
         }
     ],
+    "preloadRule": {
+        "package-main/pages/landing/landing":{
+            "network": "all",
+            "packages": ["Sub","Sub2"]
+        }
+    },
     "window": {
         "navigationBarTextStyle": "black",
         "navigationStyle": "custom"
