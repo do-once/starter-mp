@@ -33,6 +33,7 @@
         "navigationBarTextStyle": "black",
         "navigationStyle": "custom"
     },
+    "renderer": "webview",
     "rendererOptions": {
         "skyline": {
             "defaultDisplayBlock": true,
@@ -41,7 +42,7 @@
             "sdkVersionEnd": "15.255.255"
         }
     },
-    "componentFramework": "glass-easel",
+    "componentFramework": "exparser",
     "sitemapLocation": "sitemap.json",
     "lazyCodeLoading": "requiredComponents"
 }
