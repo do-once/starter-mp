@@ -9,7 +9,7 @@
     "author": "",
     "license": "",
     "dependencies": {
-        "camel-case":"5.0.0"
+        "wxmp-rsa":"2.1.0"
     },
     "devDependencies": {}
 }

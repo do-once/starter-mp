@@ -9,7 +9,7 @@
     "author": "",
     "license": "",
     "dependencies": {
-        "pascal-case":"4.0.0"
+        "lottie-miniprogram":"1.0.12"
     },
     "devDependencies": {}
 }
