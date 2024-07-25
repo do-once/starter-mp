@@ -14,7 +14,7 @@ Starter template for WeChat Miniprogram with native framework.
     - [x] 类型声明
     - [ ] 基础封装
         - [ ] `request`封装
-        - [ ] `storage`封装
+        - [x] `storage`封装
         - [ ] 通用`layout`封装
         - [ ] `emitter`封装
         - [ ] `env`切换
