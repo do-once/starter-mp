@@ -10,8 +10,8 @@ Starter template for WeChat Miniprogram with native framework.
     - [x] 固定基础库版本、`render`、`componentFramework`
     - [x] 引入`vant-weapp`
         - [x] 引入自定义主题
-        - [ ] 组件`tree-shaking`
-    - [ ] 类型声明
+        - [x] 组件`tree-shaking`
+    - [x] 类型声明
     - [ ] 基础封装
         - [ ] `request`封装
         - [ ] `storage`封装
