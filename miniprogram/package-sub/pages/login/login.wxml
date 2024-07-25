@@ -1,2 +1,7 @@
 <!--package-Sub/pages/login/login.wxml-->
 <text>package-Sub/pages/login/login.wxml</text>
+
+
+<view class="h-full flex items-center justify-center">
+    <van-button type="primary" bind:tap="onTap">登录</van-button>
+</view>

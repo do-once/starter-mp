@@ -4,17 +4,13 @@ App<MyApp.IAppOption>({
         module: {}
     },
     onLaunch() {
-        // 展示本地存储能力
-        const logs = wx.getStorageSync('logs') || []
-        logs.unshift(Date.now())
-        wx.setStorageSync('logs', logs)
 
-        // 登录
-        wx.login({
-            success: res => {
-                console.log(res.code)
-                // 发送 res.code 到后台换取 openId, sessionKey, unionId
-            },
-        })
+        /** onLaunch中代码建议异步执行，避免影响首屏渲染 */
+        setTimeout(() => {
+            /** 存储基础设备信息 */
+            this.globalData.deviceInfo = wx.getDeviceInfo()
+            this.globalData.windowInfo = wx.getWindowInfo()
+        }, 10);
+
     },
 })
