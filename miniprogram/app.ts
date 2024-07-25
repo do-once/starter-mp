@@ -1,5 +1,4 @@
 /** 入口 */
-
 import { emitter } from "./shared/instances/emitter";
 
 // app.ts
@@ -17,7 +16,6 @@ App<MyApp.IAppOption>({
 
             /** 挂载emitter */
             this.globalData.emitter = emitter
-
 
             /** app设置完毕 */
             emitter.emit('APP_SETUP_COMPLETE')

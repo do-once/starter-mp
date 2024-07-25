@@ -37,6 +37,10 @@ declare global {
 
         /** 事件类型枚举 */
         type EmitterEventTypes = 'APP_SETUP_COMPLETE'
+
+        interface IEnv {
+            API_BASE_URL: `${'http' | 'https' | '//'}:${string}`
+        }
     }
 }
 
