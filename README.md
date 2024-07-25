@@ -22,6 +22,6 @@ Starter template for WeChat Miniprogram with native framework.
     - [ ] 样例编写
         - [ ] 纯数据字段
         - [ ] 业务字段
-        - [ ] 全局数据共享
-        - [ ] `landing`页中转逻辑
+        - [x] 全局数据共享
+        - [x] `landing`页中转逻辑
         - [x] 基础登录逻辑
