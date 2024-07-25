@@ -11,3 +11,17 @@ export const PAGE_PATH_HOME = '/package-sub/pages/home/home'
 
 /** login页path */
 export const PAGE_PATH_LOGIN = '/package-sub/pages/login/login'
+
+/** http状态码 */
+export enum ResStatusCodeEnum {
+    /** 正常返回 */
+    OK = 200,
+    /** 无授权（token过期） */
+    UNAUTHORIZED = 401
+}
+
+/** 业务状态码 */
+export enum BizCodeEnum {
+    /** 正常返回 */
+    OK = '000000'
+}

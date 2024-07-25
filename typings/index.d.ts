@@ -41,6 +41,13 @@ declare global {
         interface IEnv {
             API_BASE_URL: `${'http' | 'https' | '//'}:${string}`
         }
+
+        /** request 接口返回体 */
+        interface IRes<D = any> {
+            code?: string | number
+            data?: D
+            message?: string
+        }
     }
 }
 

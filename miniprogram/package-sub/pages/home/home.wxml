@@ -1,4 +1,12 @@
 <!--package-sub/pages/home/home.wxml-->
-<text>package-sub/pages/home/home.wxml</text>
 
-<van-button type="primary">按钮</van-button>
+<view class="h-full flex flex-col items-center justify-center">
+    <view>
+        name:{{profile.name}}
+    </view>
+    <view>
+        age:{{profile.age}}
+    </view>
+
+    <van-button type="primary" bind:tap="onTap">模拟获取profile</van-button>
+</view>
