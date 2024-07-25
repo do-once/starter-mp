@@ -50,5 +50,8 @@
     "ignore": [],
     "include": []
   },
-  "appid": "wx09ea0f353228bdcb"
+  "appid": "wx09ea0f353228bdcb",
+  "scripts": {
+    "beforeUpload": "npm run shaking"
+  }
 }

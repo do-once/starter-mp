@@ -6,6 +6,7 @@
     "author": "",
     "keywords": [],
     "scripts": {
+        "shaking":"vant-tree-shaking --vantPath=miniprogram/miniprogram_npm/@vant/weapp",
         "dev":"npm-run-all --parallel install:package-*",
         "install:package-mian":"cd miniprogram && npm install",
         "install:package-sub":"cd miniprogram/package-sub && npm install",
