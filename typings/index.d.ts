@@ -1,3 +1,5 @@
+import { Emitter } from "@/shared/utils/emitter"
+
 /** 扩展全局声明 */
 declare global {
     namespace MyApp {
@@ -17,6 +19,8 @@ declare global {
                 deviceInfo?: WechatMiniprogram.DeviceInfo
                 /** 窗口信息 */
                 windowInfo?: WechatMiniprogram.WindowInfo
+                /** 全局事件管理器 */
+                emitter?: Emitter<EmitterEventTypes>
             }
         }
 
@@ -25,7 +29,14 @@ declare global {
             token: string
         }
 
+        /** onLoad携带的query参数 */
         interface IQuery extends Record<string, string> { }
+
+        /** 通用fn定义 */
+        type fn = (...args: any[]) => any
+
+        /** 事件类型枚举 */
+        type EmitterEventTypes = 'APP_SETUP_COMPLETE'
     }
 }
 

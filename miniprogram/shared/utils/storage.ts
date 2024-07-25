@@ -1,6 +1,6 @@
 /** storage */
 
-import { STORAGE_KEY_PREFIX } from '@/shared/constants'
+import { STORAGE_KEY_PREFIX } from '../constants'
 
 export async function getStorage<K extends keyof MyApp.IStorageKeyValMap>(k: K) {
 
