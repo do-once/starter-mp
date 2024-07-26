@@ -1,0 +1,32 @@
+<!--package-sub2/keyboard-height.wxml-->
+
+<view
+  class="h-full flex flex-col items-center justify-center"
+  style="position: relative"
+>
+  <view>
+    <text
+      >真机上输入框聚焦后，就可以获取键盘高度，后续处理底部输入框时，减少弹出延迟</text
+    >
+    <van-field
+      size="large"
+      type="text"
+      placeholder="聚焦获取键盘高度"
+      bind:focus="onFocus"
+    />
+  </view>
+
+  <view>
+    我是底部的输入框，聚焦任意输入框（包括自身）后，再聚焦此底部的输入框，键盘弹起将没有延迟；
+    <van-field
+      size="large"
+      type="text"
+      placeholder="聚焦获取键盘高度"
+      bind:focus="onFocus"
+      bind:blur="onBlur"
+      bind:click-input="onClickInput"
+      adjust-position="{{false}}"
+      style="position: absolute;left:0;bottom:{{keyboardHeight}}px;"
+    />
+  </view>
+</view>

@@ -25,7 +25,8 @@
             "name": "Sub2",
             "root": "package-sub2",
             "pages": [
-                "sub2/sub2"
+                "sub2/sub2",
+                "keyboard-height/keyboard-height"
             ]
         }
     ],
