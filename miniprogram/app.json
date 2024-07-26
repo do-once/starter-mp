@@ -1,15 +1,15 @@
 {
-    "entryPagePath": "package-main/pages/landing/landing",
+    "entryPagePath": "package-main/landing/landing",
     "pages": [
-        "package-main/pages/landing/landing"
+        "package-main/landing/landing"
     ],
     "subPackages": [
         {
-            "name":"Static",
+            "name": "Static",
             "root": "package-static",
             "pages": [
-                "pages/privacy-agreement/privacy-agreement",
-                "pages/user-agreement/user-agreement"
+                "privacy-agreement/privacy-agreement",
+                "user-agreement/user-agreement"
             ],
             "independent": true
         },
@@ -17,22 +17,25 @@
             "name": "Sub",
             "root": "package-sub",
             "pages": [
-                "pages/home/home",
-                "pages/login/login"
+                "home/home",
+                "login/login"
             ]
         },
         {
             "name": "Sub2",
             "root": "package-sub2",
             "pages": [
-                "pages/page-sub2/page-sub2"
+                "sub2/sub2"
             ]
         }
     ],
     "preloadRule": {
-        "package-main/pages/landing/landing":{
+        "package-main/landing/landing": {
             "network": "all",
-            "packages": ["Sub","Sub2"]
+            "packages": [
+                "Sub",
+                "Sub2"
+            ]
         }
     },
     "window": {
@@ -52,6 +55,6 @@
     "sitemapLocation": "sitemap.json",
     "lazyCodeLoading": "requiredComponents",
     "resolveAlias": {
-        "@/*":"/*"
+        "@/*": "/*"
     }
 }

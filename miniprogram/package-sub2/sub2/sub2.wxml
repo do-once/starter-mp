@@ -3,6 +3,6 @@
     <navigation-bar title="page-sub2"></navigation-bar>
 
     <scroll-view type="list" scroll-y class="flex-auto overflow-auto">
-        <view wx:for="{{items}}">package-Sub2/pages/page-sub2/page-sub2.wxml{{item}}</view>
+        <view wx:for="{{items}}">package-sub2/sub2/sub2.wxml{{item}}</view>
     </scroll-view>
 </view>

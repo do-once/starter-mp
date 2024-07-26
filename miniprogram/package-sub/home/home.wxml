@@ -12,6 +12,6 @@
     <van-button type="primary" bind:tap="onRandomFlag">随机flag，模拟纯数据字段</van-button>
 
     <view>
-        <navigator url="/package-sub2/pages/page-sub2/page-sub2">to page-sub2</navigator>
+        <navigator url="/package-sub2/sub2/sub2">to page-sub2</navigator>
     </view>
 </view>

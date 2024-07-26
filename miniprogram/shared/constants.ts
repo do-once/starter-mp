@@ -7,10 +7,10 @@ export const PROJECT_NAME = 'STARTER_MP'
 export const STORAGE_KEY_PREFIX = `__${PROJECT_NAME}__`
 
 /** 首页path */
-export const PAGE_PATH_HOME = '/package-sub/pages/home/home'
+export const PAGE_PATH_HOME = '/package-sub/home/home'
 
 /** login页path */
-export const PAGE_PATH_LOGIN = '/package-sub/pages/login/login'
+export const PAGE_PATH_LOGIN = '/package-sub/login/login'
 
 /** http状态码 */
 export enum ResStatusCodeEnum {
