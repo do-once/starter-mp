@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+    "styleIsolation": "apply-shared",
+    "disableScroll": true,
+    "usingComponents": {
+        "navigation-bar": "/shared/components/navigation-bar/navigation-bar"
+    }
 }

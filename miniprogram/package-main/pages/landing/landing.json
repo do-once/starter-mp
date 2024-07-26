@@ -1,4 +1,5 @@
 {
+    "disableScroll": true,
     "initialRenderingCache": "static",
     "styleIsolation": "apply-shared",
     "usingComponents": {}

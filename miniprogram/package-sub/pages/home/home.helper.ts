@@ -8,7 +8,7 @@ type TestRes = {
 export function getProfile() {
     // mock
     return Promise.resolve({
-        name: 'hh',
+        name: 'foo',
         age: 18
     })
 

@@ -2,11 +2,16 @@
 
 <view class="h-full flex flex-col items-center justify-center">
     <view>
-        name:{{profile.name}}
+        name:{{name}}
     </view>
     <view>
-        age:{{profile.age}}
+        age:{{age}}
     </view>
 
     <van-button type="primary" bind:tap="onTap">模拟获取profile</van-button>
+    <van-button type="primary" bind:tap="onRandomFlag">随机flag，模拟纯数据字段</van-button>
+
+    <view>
+        <navigator url="/package-sub2/pages/page-sub2/page-sub2">to page-sub2</navigator>
+    </view>
 </view>

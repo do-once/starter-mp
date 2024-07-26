@@ -12,16 +12,15 @@ Starter template for WeChat Miniprogram with native framework.
         - [x] 引入自定义主题
         - [x] 组件`tree-shaking`
     - [x] 类型声明
-    - [ ] 基础封装
+    - [x] 基础封装
         - [x] `request`封装
         - [x] `storage`封装
-        - [ ] 通用`layout`封装
         - [x] `emitter`封装
         - [x] `env`获取
-    - [ ] 文档完善
-    - [ ] 样例编写
-        - [ ] 纯数据字段
-        - [ ] 业务字段
+    - [x] 文档完善
+    - [x] 样例编写
+        - [x] 纯数据字段
+        - [x] 业务字段
         - [x] 全局数据共享
         - [x] `landing`页中转逻辑
         - [x] 基础登录逻辑
