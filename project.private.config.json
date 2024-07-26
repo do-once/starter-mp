@@ -10,6 +10,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "package-sub2/keyboard-height/keyboard-height",
+          "pathName": "package-sub2/keyboard-height/keyboard-height",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "package-sub/pages/home/home",
           "pathName": "package-sub/pages/home/home",
           "query": "",
