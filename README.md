@@ -1,6 +1,6 @@
 # starter-mp
 
-Starter template for WeChat Miniprogram with native framework.
+- 微信小程序原生开发模板（TS+Vantweapp+Sass+分包））
 
 - TODO
   - [x] 分包
