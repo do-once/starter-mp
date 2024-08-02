@@ -56,6 +56,7 @@ export class Request {
               } else {
                 /** 非OK，展示接口返回的错误信息 */
                 showToast(bizResp.message ?? `请求异常：${bizResp.code}`)
+                reject(bizResp)
               }
               break
 
@@ -67,12 +68,14 @@ export class Request {
             default:
               /** 其余http状态码 */
               console.log(`wx.request尚未处理的http状态码：${res.statusCode}`)
+              reject(res)
               break
           }
         },
         fail: err => {
           /** 请求内部错误 */
           showToast(`${err.errno}：${err.errMsg}`)
+          reject(err)
         },
       })
       if (!requestTask) reject()
